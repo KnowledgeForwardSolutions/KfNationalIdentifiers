@@ -9,8 +9,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C8E0F71C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{F6704B41-D6D9-4B87-A944-4C3F9C2F4FAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KfNationalIdentifiers", "src\KfNationalIdentifiers\KfNationalIdentifiers.csproj", "{A48DA909-7DFF-419C-B3E7-B5207C7FF904}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A48DA909-7DFF-419C-B3E7-B5207C7FF904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48DA909-7DFF-419C-B3E7-B5207C7FF904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48DA909-7DFF-419C-B3E7-B5207C7FF904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48DA909-7DFF-419C-B3E7-B5207C7FF904}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A48DA909-7DFF-419C-B3E7-B5207C7FF904} = {098B0685-AC14-4840-B2AD-342762B60F67}
 	EndGlobalSection
 EndGlobal
